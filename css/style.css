@@ -1,0 +1,134 @@
+html {
+  font-size: 100%;      /*  16  */
+}
+
+body {
+  background-color: white;
+  color: #444;
+  line-height: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: linear-gradient(#0ff 1px, transparent 1px);
+  background-size: auto 1.5rem;      /*  24 / 16  */
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  flex-basis: 60rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+/* typographic scale:  12, 14, 16, 18, 21, 24, 36, 48, 60, 72, 84, 96, 108, 120 */
+
+h1 {
+  font-size: 60px;
+  font-size: 3.75rem;       /*  60 / 16  */
+  line-height: 6rem;       /*  96 / 16  */
+  /*margin-bottom: 1.5rem;         (120 - 96) / 16  */
+  padding: 6rem;
+  font-family: 'Norican', cursive;
+  background-color: #4F0061;
+  color: #EAC3FA;
+}
+
+.fable-one, .fable-two, .fable-three, .fable-four {
+  padding: 6rem 6rem 4.5rem;
+}
+
+/*  Fable One  */
+
+.fable-one {
+  background-color: #750808;
+  color: #FAC2C2;
+}
+
+.fable-one h2 {
+  font-size: 3rem;       /*  48 / 16  */
+  line-height: 4.5rem;       /*  72 / 16  */
+  margin-bottom: 3rem;       /*  (96 - 48) / 16  */
+  font-family: 'Abril Fatface', cursive;
+}
+
+.fable-one > p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*  Fable Two  */
+
+.fable-two {
+  background-color: #A64200;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.fable-two h2 {
+  font-size: 2.25rem;       /*  36 / 16  */
+  line-height: 3rem;       /*  48 / 16  */
+  margin: 0.3rem 0 1.2rem;
+  font-family: 'Unica One', cursive;
+  flex-basis: calc(30% - 1.5rem);
+}
+
+.fable-two > p {
+  font-family: 'Vollkorn', serif;
+  flex-basis: 70%;
+}
+
+/*  Fable Three  */
+
+.fable-three {
+  background-color: #E0C23A;
+  color: #403B24;
+}
+
+.fable-three h2 {
+  font-size: 4rem;       /*  64 / 16  */
+  line-height: 6rem;       /*  96 / 16  */
+  margin-bottom: 2.875rem;       /*  (72 - 48 - 2(border)) / 16  */
+  font-family: 'Amatic SC', cursive;
+  border-bottom: 0.125rem #403B24 solid;
+}
+
+.fable-three > p {
+  font-family: 'Andika', sans-serif;
+}
+
+/*  Fable Four  */
+
+.fable-four {
+  background-color: #2C450E;
+  color: #D9E3CC;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.fable-four h2 {
+  font-size: 2.25rem;       /*  36 / 16  */
+  line-height: 3rem;       /*  48 / 16  */
+  margin: 0.25rem 0 1.25rem;       /*  (72 - 48) / 16  */
+  font-family: 'Poppins', sans-serif;
+  flex-basis: calc(35% - 1.5rem - 0.125rem);
+}
+
+.fable-four > .text-box {
+  flex-basis: 65%;
+  text-align: right;
+  padding-right: 1.5rem;
+  border-right: 0.125rem #D9E3CC solid;
+}
+
+.fable-four > p {
+  font-family: 'Anonymous Pro', monospace;
+}
